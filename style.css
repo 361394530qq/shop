@@ -15,6 +15,7 @@ body { font-size:12px; font-family:"微软雅黑"; }
 .clear:after { content:''; display:block; clear:both; }
 .fl { float:left; }
 .fr { float:right; }
+/*css3中的渐变起始位置 开始颜色，结束颜色*/
 .gradient {
 	background:-moz-linear-gradient(top, #FFFFFF, #f8f8f8);
 	background:-webkit-linear-gradient(top, #FFFFFF, #f8f8f8);
@@ -23,6 +24,9 @@ body { font-size:12px; font-family:"微软雅黑"; }
 	-ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#FFFFFF, endColorstr=#f8f8f8)";
 	+background:#f9f9f9;
 }
+
+
+/*整个网站所用到的三角符号标识，在更多的应用中应首先规划好统一的应用范围。*/
 .triangle_up, .triangle_down_red, .triangle_down_gray { position:absolute; width:0; height:0; overflow:hidden; border-left:4px solid transparent; border-right:4px solid transparent; }
 .triangle_up { border-bottom:4px solid #ca0309; }
 .triangle_down_red { border-top:4px solid #ca0309; }
